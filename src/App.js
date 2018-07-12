@@ -14,14 +14,14 @@ class App extends Component {
         </header>
         <p className="App-intro">
         <ErrorBoundary>
-        <p>These two counters are inside the same error boundary. If one crashes, the error boundary will replace both of them.</p>
-        <DominiksBeer />
-        <DominiksBeer />
-      </ErrorBoundary>
-      <hr />
-      <p>These two counters are each inside of their own error boundary. So if one crashes, the other is not affected.</p>
-      <ErrorBoundary><DominiksBeer /></ErrorBoundary>
-      <ErrorBoundary><DominiksBeer /></ErrorBoundary>
+          <p>These two counters are inside the same error boundary. If one crashes, the error boundary will replace both of them.</p>
+          <DominiksBeer />
+          <DominiksBeer />
+        </ErrorBoundary>
+        <hr />
+        <p>These two counters are each inside of their own error boundary. So if one crashes, the other is not affected.</p>
+        <ErrorBoundary><DominiksBeer /></ErrorBoundary>
+        <ErrorBoundary><DominiksBeer /></ErrorBoundary>
         </p>
       </div>
     );

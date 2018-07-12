@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 import error from './img/error.png';
 
-
-
 export class ErrorBoundary extends Component {
   constructor(props) {
     super(props);
